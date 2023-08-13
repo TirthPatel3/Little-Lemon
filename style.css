@@ -21,3 +21,38 @@ header > img {
     margin-right: auto;
     width: 40rem;
 }
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+article > img {
+    width: 95%;
+    height: 15rem;
+}
+
