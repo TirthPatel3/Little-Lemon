@@ -22,15 +22,35 @@ header > img {
     width: 40rem;
 }
 
+nav {
+    margin-top: 1.5rem;    
+}
+
 nav ul {
     list-style: none;
-    text-align: center;
+    overflow: hidden;
+    background-color: #666;
 }
 
 nav li {
-    display: inline-block;
+    float: left;
 }
 
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4caf50;
+}
 section {
     display: flex;
 }
