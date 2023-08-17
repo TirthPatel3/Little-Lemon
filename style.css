@@ -23,17 +23,21 @@ header > img {
 }
 
 nav {
-    margin-top: 1.5rem;    
+    margin-top: 1.5rem;
 }
 
 nav ul {
     list-style: none;
-    overflow: hidden;
     background-color: #666;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 nav li {
     float: left;
+    border-right: 0.1rem solid #bbb;
 }
 
 li a {
@@ -48,9 +52,7 @@ li a:hover {
     background-color: #111;
 }
 
-.active {
-    background-color: #4caf50;
-}
+
 section {
     display: flex;
 }
@@ -71,6 +73,20 @@ form div {
     margin: 1rem 0 1rem 0;
 }
 
+button {
+    background-color: #666;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+button:active {
+    background-color: #04AA6D;
+}
+
 footer {
     display: flex;
 }
@@ -84,3 +100,12 @@ article > img {
     height: 15rem;
 }
 
+.menu-items {
+    display: block;
+    text-align: center;
+    width: 25rem;
+    height: max-content;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: antiquewhite;
+}
