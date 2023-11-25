@@ -11,6 +11,12 @@ h1 {
     font-size: 2rem;
 }
 
+.header1 {
+    background-color: lightgray;
+    border-radius: 1rem;
+    text-align: center;
+}
+
 h2 {
     font-size: 1rem;
 }
@@ -92,7 +98,7 @@ footer {
 }
 
 footer div {
-    flex: 1;
+    flex: 1;    
 }
 
 article > img {
@@ -102,10 +108,13 @@ article > img {
 
 .menu-items {
     display: block;
+    margin: auto;
     text-align: center;
     width: 25rem;
     height: max-content;
     padding: 1rem;
     margin-top: 1rem;
     background-color: antiquewhite;
+    border-radius: 1rem;
 }
+
